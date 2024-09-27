@@ -44,6 +44,6 @@ const arrayC = [12, 0, 8]
 
 const arrayFinal = [...arrayA, ...arrayB, ...arrayC]
 
-var resultado = arrayFinal.sort((a, b) => a - b)
+arrayFinal.sort((a, b) => a - b)
 
-console.log(resultado)
+console.log(arrayFinal)
