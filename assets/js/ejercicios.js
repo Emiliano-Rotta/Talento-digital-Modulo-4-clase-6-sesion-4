@@ -38,12 +38,12 @@
 // Tienes tres arrays de números: arrayA = [5, 10, 15], arrayB = [3, 6, 9], y arrayC = [12, 0, 8]. Utiliza el operador Spread para combinar todos estos arrays en un solo array arrayFinal, y luego ordénalo en orden ascendente. Muestra el array ordenado en la consola.
 // tips: para ordenar usar el metodo sort
 
-const arrayA = [5, 10, 15]
-const arrayB = [3, 6, 9]
-const arrayC = [12, 0, 8]
+// const arrayA = [5, 10, 15]
+// const arrayB = [3, 6, 9]
+// const arrayC = [12, 0, 8]
 
-const arrayFinal = [...arrayA, ...arrayB, ...arrayC]
+// const arrayFinal = [...arrayA, ...arrayB, ...arrayC]
 
-arrayFinal.sort((a, b) => a - b)
+// arrayFinal.sort((a, b) => a - b)
 
-console.log(arrayFinal)
+// console.log(arrayFinal)
